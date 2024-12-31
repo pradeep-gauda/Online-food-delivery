@@ -1,0 +1,30 @@
+
+.explore-menu-list{
+    display: flex;
+    align-items: center;
+    gap:2em;
+    text-align: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin: 20px 0px;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item img{
+    cursor: pointer;
+    width:6em;
+    border-radius: 50%;
+    min-width:80%;
+}
+.explore-menu-list-item p{
+    padding-top: 5px;
+    font-weight: 500;
+    color:var(--bs-primary-text)
+}
+
+.explore-menu-list-item  .active{
+    border:3px solid var(--bs-primary-color);
+    padding: 5px;
+    
+}

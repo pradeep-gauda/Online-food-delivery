@@ -1,0 +1,17 @@
+.footer-item{
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+
+footer{
+    background-color: #f0ecec;
+    height:auto;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-item p {
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+hr{
+    border:none;
+    background-color: #ddd;
+    height: 1px;
+}
+
+.cart-item-titles{
+    display: flex;
+    align-items: center;
+
+}
+.cart-item-details{
+    display: flex;
+    width:100%;
+    flex:1;
+    padding: 10px;
+    gap: 1.5em;
+  
+    
+}
+table{
+    border:1px solid #ddd;
+    width:100%
+}
+table thead tr{
+    font-weight: 600;
+   
+}
+table thead tr td{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+table thead tr td:nth-child(6){
+    border-right:none;
+}
+
+table tbody tr td{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+table tbody tr td:nth-child(6){
+    border-right:none;
+}
+.remove-item{
+    cursor: pointer;
+    color:red;
+    font-weight: 600;
+}
+.cart-checkout{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.cart-total{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    max-width:70%;
+    gap: 0.8em;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cart-promo{
+    max-width: 30%;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    gap:0.8em;
+    align-items:flex-start;
+    border:1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+}
+

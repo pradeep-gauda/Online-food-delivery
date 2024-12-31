@@ -1,0 +1,31 @@
+
+.header{
+    background: url('./header_img.png') no-repeat;
+    height: 38vw;
+    margin: 0px auto;
+    background-size: contain;
+    position: relative;
+}
+.header-content{
+    max-width:50%;
+    margin: 0px auto;
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    position: absolute;
+    gap: 1.5em;
+    left: 10%;
+    bottom: 10%;
+    animation: fadeIn 3s;
+}
+.header-content h2{
+    font-size:3em;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--bs-white-color);
+}
+
+.header-content p{
+    font-size: 1em;
+    color:var(--bs-white-color)
+}

@@ -1,0 +1,75 @@
+
+.fooditem-container{
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-between; /* Space between cards */
+    margin: -10px; /* Remove margin from container */
+    
+
+
+}
+.footitem-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Space around each card */
+    padding: 15px;
+    flex: 1 1 calc(25% - 20px); /* Four cards per row with space */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: transform 0.3s ease; /* Smooth transition for hover*/
+    position: relative;
+}
+
+.fooditem-card-info p{
+    font-weight:600;
+    font-size: 1.2em;
+    color: var(--bs-primary-text);
+}
+.fooditem-card-price p{
+    color: var(--bs-primary-color);
+    font-weight: 500;
+}
+
+.add-item{
+    cursor: pointer;
+}
+
+.remove-item{
+    cursor: pointer;
+}
+
+.food-item-counter{
+    display: flex;
+    align-items: end;
+    gap: 2em;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 11em;
+    background-color: var(--bs-white-color);
+    padding: 5px;
+    border-radius: 25px;
+    right: 15px;
+   
+
+}
+
+.add-intital-item{
+    display: flex;
+    align-items: end;
+    width:40px;
+    right: 20px;
+    position: absolute;
+    bottom: 11em;
+    cursor: pointer;
+   
+}
+
+
+
+@media screen and (max-width:564px) {
+    .footitem-card {
+        
+        flex:auto
+    }
+}

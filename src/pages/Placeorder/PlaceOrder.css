@@ -1,0 +1,27 @@
+.placeorder{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    gap:1em;
+}
+
+.cart-left{
+width:70%;
+}
+.cart-right{
+    width:30%
+}
+.multi-input{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    padding-bottom:10px ;
+}
+
+@media screen and (max-width:556px) {
+    .placeorder{
+        flex-direction:column;
+        display: flex;
+        
+    }
+}
